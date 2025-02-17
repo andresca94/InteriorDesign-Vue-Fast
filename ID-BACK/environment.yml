@@ -1,0 +1,37 @@
+name: interiordesign
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - cudatoolkit=11.8
+  - pip:
+    - transformers
+    - diffusers
+    - python-multipart
+    - accelerate
+    - controlnet_aux
+    - xformers
+    - gradio
+    - anyio
+    - click
+    - fastapi
+    - idna
+    - opencv-python
+    - pydantic
+    - pymemcache
+    - requests
+    - sniffio
+    - starlette
+    - uvicorn
+    - transformers
+    - supervision
+    - segment-anything
+    - tqdm
+    - psutil

@@ -1,0 +1,29 @@
+name: interiordesign
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python
+  - pip:
+    - transformers
+    - diffusers 
+    - accelerate
+    - controlnet_aux
+    - gradio
+    - anyio
+    - click
+    - fastapi
+    - idna
+    - opencv-python
+    - pydantic
+    - pymemcache
+    - requests
+    - sniffio
+    - starlette
+    - uvicorn
+    - transformers
+    - supervision
+    - tqdm
+    - psutil
