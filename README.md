@@ -35,27 +35,16 @@ This project allows users to:
 
 git clone https://github.com/andresca94/InteriorDesign-Vue-Fast.git cd InteriorDesign-Vue-Fast
 
-shell
-Copy
-Edit
 
 ### Create a Conda Environment and Install Dependencies
 
 conda env create -f environment.yml conda activate interior-design-env
-
-sql
-Copy
-Edit
 
 ## Running the API
 
 Start the FastAPI server with:
 
 uvicorn main:app --host 0.0.0.0 --port 9000
-
-perl
-Copy
-Edit
 
 Once running, open `http://localhost:9000/docs` to test the API in an interactive UI.
 
@@ -85,17 +74,9 @@ This project uses Hugging Face models. Ensure that your API keys are never hardc
 
 HUGGING_FACE_TOKEN=your_hugging_face_api_key
 
-lua
-Copy
-Edit
-
 Then, load the key in Python:
 
 import os hugging_face_token = os.getenv("HUGGING_FACE_TOKEN")
-
-csharp
-Copy
-Edit
 
 ## Deployment
 
@@ -103,17 +84,9 @@ To deploy on a production server using Gunicorn:
 
 gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
 
-yaml
-Copy
-Edit
-
 For Docker Deployment:
 
 docker build -t interior-design-ai . docker run -p 9000:9000 interior-design-ai
-
-markdown
-Copy
-Edit
 
 ## License
 
@@ -124,10 +97,3 @@ This project is licensed under the MIT License.
 - Stable Diffusion - RunwayML
 - ControlNet - lllyasviel
 - Segment Anything - Meta AI
-
-
-
-
-
-
-
