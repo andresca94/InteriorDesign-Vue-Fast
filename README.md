@@ -7,10 +7,6 @@ Design a tranquil Scandinavian living space where simplicity and comfort converg
 Design a minimalist area near the couch with an emphasis on open space and simplicity. Above the couch, hang a single, large-scale black and white photograph in a thin black frame, capturing the minimalist aesthetic. The surrounding space should remain uncluttered, with natural light as the primary decorative element, reflecting the minimalist ethos of functionality and simplicity.
 
 
-markdown
-Copy
-Edit
-# InteriorDesign-Vue-Fast
 
 ## Description
 
